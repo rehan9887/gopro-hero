@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+.max-width {
+  max-width: 100%;
+  display: block;
+}
+.spece{
+  text-align: center;
+}
+.Get {
+  background: #bee1e6;
+  font-size: 14px;
+color: #000;
+font-weight: 500;
+}
+.hero-sec {
+  background: #bee1e6;
+  padding: 100px 0;
+}
+.border-col {
+  background: #006d77;
+  display: inline-block;
+  font-size: 16px;
+  border: 1px solid #006d77;
+}
+.Advanced {
+  color: #000;
+  font-size: 53px;
+  font-weight: 600;
+}
+.para {
+  color: #444;
+  font-size: 16px;
+}
+.sect-1 {
+  padding: 100px 0;
+}
+.img-haa {
+  display: flex;
+  justify-content: space-around;
+}
+.img-ha {
+  display: flex;
+  justify-content: space-around;
+}
+.hori {
+  border-bottom: 3px solid #E0E0E0;
+}
+.hori:hover {
+  border-bottom: 3px solid #0dd5ef;
+}
+.sect-2 {
+  padding: 100px 0;
+}
+.img-hll{
+  width: 290px;
+}
+.keting{
+  width: 114px;
+  top: 52%;
+  left: 71%;
+}
+.border-cel {
+  background: #bee1e6;
+}
+.border-cel:hover {
+  background: #000;
+  color: #fff;
+}
+.hading {
+  color: #000;
+  font-size: 33px;
+  font-weight: 600;
+}
+.page {
+  font-size: 16px;
+  color: #444;
+}
+.under{
+    color: #000;
+    font-size: 18px;
+font-weight: 600;
+}
+.cap-2{
+    color: #000;
+font-size: 14px;
+font-weight: 300;
+letter-spacing: 0.35px;
+line-height: 24px;
+}
+.hading-1{
+    color: #000;
+font-size: 33px;
+font-weight: 600;
+}
+.sect-3{
+    padding: 100px 0;
+}
+.Ideas{
+    text-align: center;
+}
+.cap-3{
+    color: #444;
+font-size: 16px;
+}
+.sect-4{
+  background: rgba(211, 249, 255, 0.65);
+box-shadow: 0px 20px 19px 1px rgba(0, 0, 0, 0.10);
+padding: 100px 0;
+}
+.sign{
+  color: #000;
+font-size: 33px;
+font-weight: 600;
+}
+.sint{
+  top: 65%;
+  left: 52%;
+}
+.footer{
+  padding: 100px 0;
+}
+.Pena{
+  color: #000;
+font-size: 18px;
+font-weight: 600;
+}
+.est{
+  color: #444;
+font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+}
+.hading-3{
+  color: #000;
+font-size: 18px;
+font-weight: 600;
+text-transform: uppercase
+}
+.Useful{
+  color: #929292;
+font-size: 15px;
+font-weight: 600;
+}
+.sec-2{
+  background: #006D77;
+  padding: 50px 0;
+}
+
+@media (min-width: 576px) {
+  
+}
+@media (min-width: 768px) {
+  .img-hll{
+    width: 570px;
+  }
+  .keting{
+    width: 190px;
+    top: 58%;
+    left: 69%;
+  }
+}
+@media (min-width: 992px) {
+  .Get {
+    font-size: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .Get {
+    font-size: 14px;
+  }
+}
